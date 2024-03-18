@@ -72,6 +72,11 @@ const  SIMPLE_MENU = [
         routeName: 'metis',
         summary: 'header.metis.summary',
       },
+      {
+        entryName: 'header.ris_live.name',
+        routeName: 'ris_live',
+        summary: 'header.ris_live.summary',
+      }
     ],
   },
   {

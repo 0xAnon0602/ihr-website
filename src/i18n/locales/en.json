@@ -18,6 +18,10 @@
       "name": "Metis",
       "summary": "Atlas probe selection and deployment"
     },
+    "ris_live": {
+      "name": "RIS Live",
+      "summary": "Real-time BGP feed from RIS"
+    },
     "globalReport": {
       "name": "Global",
       "summary": "Alarms reported across all networks"

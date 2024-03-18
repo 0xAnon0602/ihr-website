@@ -6,6 +6,7 @@ import Api from '../views/Api.vue'
 import MetisHome from '../views/MetisHome.vue'
 import MetisSelection from '../views/MetisSelection.vue'
 import MetisDeployment from '../views/MetisDeployment.vue'
+import RISLive from '../views/RISLive.vue'
 import ROV from '../views/ROV.vue'
 import Corona from '../views/Corona.vue'
 import PageNotFound from '../views/PageNotFound.vue'
@@ -108,6 +109,11 @@ const router = createRouter({
           path: 'metis',
           name: 'metis',
           component: MetisHome,
+        },
+        {
+          path: 'ris_live',
+          name: 'ris_live',
+          component: RISLive,
         },
         {
           path: 'metis/selection',
